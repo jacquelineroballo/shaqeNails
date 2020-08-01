@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap/css/mdb.min.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <link rel="stylesheet" href="lightbox/lightbox.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Shaqe Nails Manicure</title>
+    </head>
+    <body>
+        <!--Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark purple-gradient myNav">
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#basicExampleNav" aria-controls="basicExampleNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto items">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio<span
+                                class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#miGaleria">Galería</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                            id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" href="#">Servicios</a>
+                        <div class="dropdown-menu dropdown-primary"
+                            aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#misServicios">Esmaltado
+                                Semipermanente</a>
+                            <a class="dropdown-item" href="#misServicios">Esmaltado
+                                Tradicional</a>
+                            <a class="dropdown-item" href="#misServicios">Manicuría</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo.png" alt="logo">
+            </a>
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+                <ul class="navbar-nav ml-auto items">
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://www.facebook.com/shaqenails">
+                            <i class="fab fa-facebook-f"></i> Facebook
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://www.instagram.com/shaqenails">
+                            <i class="fab fa-instagram"></i> Instagram</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-1">
+                    <div class="md-form form-sm my-0">
+                        <input class="form-control form-control-sm mr-sm-2 mb-0"
+                            type="text" placeholder="Buscar"
+                            aria-label="Search">
+                    </div>
+                    <button class="btn btn-outline-white btn-sm my-0"
+                        type="submit"><i class="fa fa-search"
+                            aria-hidden="true"></i></button>
+                </form>
+            </div>
+
+        </nav>
+        <!--Navbar-->
+        <main>
+            <!--Main Container-->
+            <!--Hero-->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">Tus uñas</h1>
+                    <h2 class="hero-subtitle">en las mejores manos</h2>
+                    <button class="btn btn-outline-white purple-gradient btn-sm
+                        my-0 heroButton" type="submit"><a href="#nosotros">Sobre
+                            Nosotros</a></button>
+                </div>
+                <div class="custom-shape-divider-bottom-1595293920">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path
+                            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                            opacity=".25" class="shape-fill"></path>
+                        <path
+                            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                            opacity=".5" class="shape-fill"></path>
+                        <path
+                            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                            class="shape-fill"></path>
+                    </svg>
+                </div>
+            </section>
+            <!--Hero-->
+            <!--SobreNosotros-->
+            <section class="sobreNosotros">
+                <h3 id="nosotros">SOBRE NOSOTROS</h3>
+                <div class="aboutUs">
+                    <div class="texto">
+                        <p>Mi nombre es Jacqueline, hace siete años me enamoré
+                            del arte en las uñas, como asi también de las
+                            infinitas técnicas que hay para generar una pieza
+                            única para cada clienta.
+                        </p>
+                        <p>Shaqe Nails es un emprendimiento personal que surgió
+                            en el 2012. Comenzó como un hobbie que luego pasó a
+                            ser mi herramienta de trabajo.</p>
+                        <p>Cada clienta es única, como el color, diseño y
+                            decoración que elija. Mi prioridad es la atención al
+                            detalle y cuidado de mi clienta.</p>
+                    </div>
+                    <img src="assets/sobreNosotros/manos.jpg" alt="aboutus">
+                </div>
+            </section>
+            <!--Sobre Nosotros-->
+            <!--Servicios-->
+            <div class="container-fluid purple-gradient servicios"
+                id="misServicios">
+                <h3>Servicios</h3>
+                <div class="custom-shape-divider-top-1595294414">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path
+                            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                            opacity=".25" class="shape-fill"></path>
+                        <path
+                            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                            opacity=".5" class="shape-fill"></path>
+                        <path
+                            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                            class="shape-fill"></path>
+                    </svg>
+                </div>
+                <div class="row iconos">
+                    <div class="class-col-md-4">
+                        <img src="assets/servicios/semiIcon.png"
+                            alt="semipermanente">
+                    </div>
+                    <div class="class-col-md-4">
+                        <img src="assets/servicios/tradiIcon.png"
+                            alt="tradicional">
+                    </div>
+                    <div class="class-col-md-4">
+                        <img src="assets/servicios/manicuraIcon.png"
+                            alt="manicuria">
+                    </div>
+                </div>
+                <div class="row text-justify text-white">
+                    <div class="col-sm-4">
+                        <h4>Esmaltado Semipermanente</h4>
+                        <p>Con una duración de 15 a 21 días, esta es la opción
+                            ideal para vos si queres ver tus manos bellas por
+                            más
+                            tiempo, querés que crezcan o tener un diseño de nail
+                            art a la moda. Dale rienda suelta a tu imaginación.
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>Esmaltado Tradicional</h4>
+                        <p>El clásico esmaltado tradicional, puede ser en un
+                            solo tono o también nail art, con la única
+                            desventaja
+                            que la duración es de 5 a 7 días. Si te aburrís del
+                            mismo diseño, esta opción es ideal para vos.
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>Manicuría</h4>
+                        <p>Se realiza con cremas & aceites hidratantes para que
+                            tu piel quede suave y facilite el proceso. Puede
+                            incluir
+                            esmaltado tradicional o esmaltado semipermanente.
+                            Sino, se finaliza con top coat brillo tradicional.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Servicios-->
+            <div id="sepa">
+                <div class="custom-shape-divider-bottom-1595295185">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path
+                            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                            opacity=".25" class="shape-fill"></path>
+                        <path
+                            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                            opacity=".5" class="shape-fill"></path>
+                        <path
+                            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                            class="shape-fill"></path>
+                    </svg>
+                </div>
+            </div>
+            <!-- Galeria -->
+            <section class="galeria">
+                <h4 id="miGaleria">GALERÍA</h4>
+                <div class="images">
+                    <a data-lightbox="imagen1" href="images/1.jpg"
+                        title="Trabajos realizados por mí."><img
+                            src="images/chica1.jpg" alt="" class="margen"></a>
+                    <a data-lightbox="imagen1" href="images/2.jpg"
+                        title="Trabajos realizados por mí."><img
+                            src="images/chica2.jpg" alt="" class="margen"></a>
+                    <a data-lightbox="imagen1" href="images/3.jpg"
+                        title="Trabajos realizados por mí."><img
+                            src="images/chica3.jpg" alt="" class="margen"></a>
+                    <a data-lightbox="imagen1" href="images/4.jpg"
+                        title="Trabajos realizados por mí."><img
+                            src="images/chica4.jpg" alt="" class="margen"></a>
+                    <a data-lightbox="imagen1" href="images/5.jpg"
+                        title="Trabajos realizados por mí."><img
+                            src="images/chica5.jpg" alt="" class="margen"></a>
+                    <a data-lightbox="imagen1" href="images/6.jpg"
+                        title="Trabajos realizados por mí."><img
+                            src="images/chica6.jpg" alt="" class="margen"></a>
+                    <a data-lightbox="imagen1" href="images/7.jpg"
+                        title="Trabajos realizados por mí."><img
+                            src="images/chica7.jpg" alt="" class="margen"></a>
+                    <a data-lightbox="imagen1" href="images/8.jpg"
+                        title="Trabajos realizados por mí."><img
+                            src="images/chica8.jpg" alt="" class="margen"></a>
+                    <a data-lightbox="imagen1" href="images/9.jpg"
+                        title="Trabajos realizados por mí."><img
+                            src="images/chica9.jpg" alt="" class="margen"></a>
+                    <a data-lightbox="imagen1" href="images/10.jpg"
+                        title="Trabajos realizados por mí."><img
+                            src="images/chica10.jpg" alt="" class="margen"></a>
+                </div>
+
+                <script src="lightbox/lightbox.js"></script>
+            </section>
+            <!-- Galeria -->
+        </main>
+        <!--Main Container-->
+        <!-- Footer -->
+        <footer class="container-fluid purple-gradient">
+            <div class="row text-center align-items-center">
+                <div class="col-md-3 left">
+                    <ul>
+                        <li><a href="#"> Galería</a></li>
+                        <li><a href="#"> Servicios</a></li>
+                        <li><a href="#"> Giftcards</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="col-md-3 align-items-center">
+                    <a href="http://www.facebook.com/shaqenails"><i class="fab fa-facebook-square fa-3x social"></i></a>
+                    <a href="http://instagram.com/shaqenails"><i class="fab fa-instagram fa-3x social"></i></a>
+                    <a href="mailto:jacquelineroballo@gmail.com"><i class="far fa-envelope fa-3x social"></i></a>
+                </div>
+                <div class="col-md-3 copy">
+                    <p>Copyright 2020 © Shaqe Nails </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Popper JavaScript -->
+        <script src="bootstrap/js/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script src="bootstrap/js/mdb.min.js"></script>
+
+
+
+    </body>
+
+</html>
